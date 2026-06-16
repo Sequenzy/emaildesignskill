@@ -1,5 +1,5 @@
 ---
-name: email-design
+name: emaildesignskill
 description: Use when Codex or another AI agent needs to plan, review, implement, audit, or improve email work focused on responsive email design, component systems, and accessibility checks. Triggers include requests about Template critique, Module system planning, Dark-mode QA, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
 ---
 
