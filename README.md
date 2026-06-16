@@ -6,7 +6,6 @@ Install shortcut:
 
 ```bash
 npx skills add emaildesignskill
-npx skills add Sequenzy/emaildesignskill --skill emaildesignskill
 ```
 
 Raw skill folder: `skills/emaildesignskill`

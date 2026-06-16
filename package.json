@@ -17,7 +17,6 @@
   "skill": {
     "name": "emaildesignskill",
     "path": "skills/emaildesignskill",
-    "install": "npx skills add emaildesignskill",
-    "githubInstall": "npx skills add Sequenzy/emaildesignskill --skill emaildesignskill"
+    "install": "npx skills add emaildesignskill"
   }
 }
