@@ -2,9 +2,9 @@
 
 emaildesignskill.com
 
-Email Design Skill for agents that work on email systems.
+Review email design like a system, not a screenshot.
 
-A compact skill for responsive email design, component systems, and accessibility checks, built for Codex, Hermes, OpenClaw, Claude Code, Cowork, Goose, Cursor, Windsurf, and other skill-aware agents. It gives agents intake questions, review gates, QA checks, and handoff formats for production email work.
+A design skill for agents checking responsive modules, dark-mode behavior, accessibility, and production-safe template changes.
 
 ## Install
 
@@ -12,16 +12,43 @@ A compact skill for responsive email design, component systems, and accessibilit
 npx skills add emaildesignskill
 ```
 
-Raw skill folder: `skills/emaildesignskill`
+## Operating Data
 
-## Use Cases
+- **14**: module checks
+- **5**: rendering surfaces
+- **2**: contrast passes
 
-- **Template critique**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Module system planning**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
-- **Dark-mode QA**: Give agents a bounded way to inspect inputs, propose changes, and surface approval points before anything reaches subscribers.
+## Template inspection frame
 
-## Guides
+1. Module purpose
+2. Mobile stack
+3. Dark mode
+4. Alt text
+5. Fallback copy
 
-- [How to Build an Agent-Ready Email Design Strategy](/articles/agent-ready-email-strategy/index.md)
-- [The Practical Email Design Operations Playbook for AI Agents](/articles/email-operations-playbook/index.md)
-- [Email Design Skill Audit Checklist: From Prompt to Production](/articles/email-skill-audit-checklist/index.md)
+## Scenarios
+
+### Template critique
+
+Review hierarchy, CTA clarity, spacing, and failure states.
+
+### Module system planning
+
+Convert one-off sections into reusable design blocks.
+
+### Dark-mode QA
+
+Surface color, image, border, and contrast risks before build handoff.
+
+## Operating Proof
+
+- **Best for**: Teams shipping reusable HTML email components
+- **Primary artifact**: Design QA table with module-level fixes
+- **Stop condition**: Unreviewed rendering change in a production template
+
+## Agent Resources
+
+- Markdown index: /index.md
+- Skill discovery JSON: /.well-known/skills/index.json
+- Raw SKILL.md: /skills/emaildesignskill/SKILL.md
+- Articles: /articles/
