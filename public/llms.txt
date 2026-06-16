@@ -1,0 +1,22 @@
+# Email Design Skill
+
+Email Design Skill is a skill package for responsive email design, component systems, and accessibility checks.
+
+Install:
+
+```bash
+npx skills add emaildesignskill
+```
+
+## Primary agent resources
+
+- Markdown index: https://emaildesignskill.com/index.md
+- Skill page: https://emaildesignskill.com/skill/index.md
+- Raw SKILL.md: https://emaildesignskill.com/skills/emaildesignskill/SKILL.md
+- Skill discovery JSON: https://emaildesignskill.com/.well-known/skills/index.json
+
+## Articles
+
+- How to Build an Agent-Ready Email Design Strategy: https://emaildesignskill.com/articles/agent-ready-email-strategy/index.md
+- The Practical Email Design Operations Playbook for AI Agents: https://emaildesignskill.com/articles/email-operations-playbook/index.md
+- Email Design Skill Audit Checklist: From Prompt to Production: https://emaildesignskill.com/articles/email-skill-audit-checklist/index.md

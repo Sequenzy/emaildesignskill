@@ -1,0 +1,13 @@
+{
+  "skills": [
+    {
+      "name": "emaildesignskill",
+      "title": "Email Design Skill",
+      "description": "Email Design Skill: responsive email design, component systems, and accessibility checks.",
+      "install": "npx skills add emaildesignskill",
+      "skill_url": "https://emaildesignskill.com/skills/emaildesignskill/SKILL.md",
+      "markdown_url": "https://emaildesignskill.com/skill/index.md",
+      "homepage_url": "https://emaildesignskill.com/"
+    }
+  ]
+}
