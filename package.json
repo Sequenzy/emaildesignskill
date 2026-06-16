@@ -1,0 +1,23 @@
+{
+  "name": "email-design",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Email Design Skill: responsive email design, component systems, and accessibility checks.",
+  "type": "module",
+  "scripts": {
+    "build": "node -e \"console.log('static public site ready')\"",
+    "validate": "node scripts/validate.mjs"
+  },
+  "keywords": [
+    "codex-skill",
+    "email",
+    "agents",
+    "email-design"
+  ],
+  "skill": {
+    "name": "email-design",
+    "path": "skills/email-design",
+    "install": "npx skills add email-design",
+    "githubInstall": "npx skills add polnikale/emaildesignskill --skill email-design"
+  }
+}
