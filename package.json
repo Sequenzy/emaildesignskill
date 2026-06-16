@@ -18,6 +18,6 @@
     "name": "emaildesignskill",
     "path": "skills/emaildesignskill",
     "install": "npx skills add emaildesignskill",
-    "githubInstall": "npx skills add polnikale/emaildesignskill --skill emaildesignskill"
+    "githubInstall": "npx skills add Sequenzy/emaildesignskill --skill emaildesignskill"
   }
 }
