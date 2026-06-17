@@ -1,28 +1,33 @@
 ---
 name: emaildesignskill
-description: Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on responsive email design, component systems, and accessibility checks. Triggers include requests about Template critique, Module system planning, Dark-mode QA, email briefs, email QA, subscriber journeys, production handoffs, approval gates, and agent-safe email operations.
+description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another AI agent needs to plan, review, implement, audit, or improve email work focused on responsive email design, component systems, dark-mode behavior, and accessibility checks. Triggers include requests about template critique, module system planning, dark-mode QA, layout fixes, accessibility reviews, and design-to-email handoff."
 ---
 
 # Email Design Skill
 
-Use this skill to turn email work into an agent-safe operating routine. Start by identifying whether the task is analysis, drafting, implementation planning, QA, or production execution. Keep production execution behind explicit human approval.
+Design for inbox constraints first. Treat every layout decision as a tradeoff across clients, viewports, accessibility, and production maintainability.
 
-## Workflow
+## When To Use
 
-1. Clarify the email surface: campaign, newsletter, automation, transactional message, template, deliverability issue, or reporting task.
-2. Ask for source material that changes the answer: audience, lifecycle stage, offer, sending platform, segment rules, screenshots or exports, recent metrics, brand voice, compliance constraints, and existing copy.
-3. Produce structured output with these headings when relevant: assumptions, missing inputs, recommendation, draft or implementation notes, QA checks, risk level, and approval needed.
-4. Do not send, import contacts, alter suppression rules, change DNS, or modify production automations without explicit confirmation.
-5. If the task is complex or high risk, read references/operating-checklist.md before finalizing.
+Use this skill for responsive email design, component systems, dark-mode behavior, and accessibility checks. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+
+## Operating Workflow
+
+1. Identify the design artifact: raw HTML, React Email component, Figma concept, screenshot, ESP builder template, or module library.
+2. Audit the hierarchy before aesthetics: preview text, primary message, CTA order, scannability, and fallback content.
+3. Check responsive structure: container width, column collapse, image ratios, button tap targets, and long-copy behavior.
+4. Evaluate client risk: Outlook tables, Gmail clipping, dark mode inversions, unsupported CSS, webfont fallbacks, and image blocking.
+5. Review accessibility: semantic heading order where possible, alt text, contrast, link affordance, plain-language CTA, and text-image balance.
+6. Return implementation notes that a developer or ESP operator can apply without redesigning the whole message.
 
 ## Review Criteria
 
-- The recommendation matches responsive email design, component systems, and accessibility checks.
-- The audience and permission basis are clear.
-- The message promise, segment, timing, and call to action are consistent.
-- Deliverability, unsubscribe, complaint, and compliance risks are surfaced.
-- Any live-system action is separated from analysis or drafting.
+- The design works without relying on image-only content.
+- The CTA remains visible and tappable on mobile.
+- Dark mode, image blocking, and long names do not break the message.
+- Reusable modules have clear constraints and do not require one-off overrides.
+- The final recommendation distinguishes rendering defects from brand preferences.
 
 ## Output Pattern
 
-Return concise, executable artifacts: briefs, checklists, diffs, campaign outlines, sequence maps, QA tables, or post-send retrospectives. Prefer concrete next actions over generic best practices.
+Return template audits, module specs, responsive QA tables, accessibility notes, implementation diffs, and design handoff checklists. Keep recommendations concrete. Separate analysis from live-system actions, and require explicit approval before sending email, importing contacts, changing DNS, altering suppression rules, or editing production automations.
