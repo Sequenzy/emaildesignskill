@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Email Design",
+      "description": "Responsive template, dark-mode, component, and accessibility review workflows.",
+      "skills": [
+        "emaildesignskill"
+      ]
+    }
+  ]
+}
