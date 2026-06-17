@@ -7,11 +7,22 @@ description: "Use when Codex, Hermes, OpenClaw, Claude Code, Cowork, or another 
 
 Design for inbox constraints first. Treat every layout decision as a tradeoff across clients, viewports, accessibility, and production maintainability.
 
-## When To Use
+## Scope
 
-Use this skill for responsive email design, component systems, dark-mode behavior, and accessibility checks. It is designed for agent workflows where email work must be specific, reviewable, and safe across planning, drafting, implementation, QA, or operational handoff.
+responsive email design, component systems, dark-mode behavior, and accessibility checks.
 
-## Operating Workflow
+## Request Signals
+
+template critique, module system planning, dark-mode QA, layout fixes, accessibility reviews, and design-to-email handoff.
+
+## Guardrails
+
+1. Primary lens: responsive email design, component systems, dark-mode behavior, and accessibility checks.
+2. Common request signals: template critique, module system planning, dark-mode QA, layout fixes, accessibility reviews, and design-to-email handoff.
+3. Default posture: Design for inbox constraints first. Treat every layout decision as a tradeoff across clients, viewports, accessibility, and production maintainability.
+4. Useful output family: template audits, module specs, responsive QA tables, accessibility notes, implementation diffs, and design handoff checklists.
+
+## Execution Path
 
 1. Identify the design artifact: raw HTML, React Email component, Figma concept, screenshot, ESP builder template, or module library.
 2. Audit the hierarchy before aesthetics: preview text, primary message, CTA order, scannability, and fallback content.
@@ -20,7 +31,7 @@ Use this skill for responsive email design, component systems, dark-mode behavio
 5. Review accessibility: semantic heading order where possible, alt text, contrast, link affordance, plain-language CTA, and text-image balance.
 6. Return implementation notes that a developer or ESP operator can apply without redesigning the whole message.
 
-## Review Criteria
+## Reviewer Notes
 
 - The design works without relying on image-only content.
 - The CTA remains visible and tappable on mobile.
